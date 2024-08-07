@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "ssafytohome",
+  "version": "1.0",
+  "author": "jungchan son",
+  "description": "From SSAFY, display time to home",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
